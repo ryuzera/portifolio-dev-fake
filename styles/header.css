@@ -1,0 +1,84 @@
+header {
+    img {
+        width: 100%;
+    }
+}
+
+.container {
+    position: relative;
+}
+
+figure {
+
+    img {
+        width: 112px;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+
+    .caret {
+        width: 32px;
+    }
+    
+}
+
+.avatar-container {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+
+.text-sm-maven {
+    word-break: break-all;
+}
+
+.info-container span {
+    color: var(--gray-500);
+}
+
+.info-container {
+    position: absolute;
+    display: flex;
+
+    gap: 16px;
+    top: 85%; /* Ajuste o valor para posicionar onde preferir */
+
+    img {
+        width: 24px;
+    }
+
+    .github {
+        background-color: var(--gray-300);
+        padding-block: 8px;
+        padding-inline: 16px;
+        border-radius: 999px;
+    }
+
+    .html {
+        background-color: var(--gray-300);
+        padding-block: 8px;
+        padding-inline: 16px;
+        border-radius: 999px;
+    }
+
+    .css {
+        background-color: var(--gray-300);
+        padding-block: 8px;
+        padding-inline: 16px;
+        border-radius: 999px;
+    }
+
+    .javascript {
+        background-color: var(--gray-300);
+        padding-block: 8px;
+        padding-inline: 16px;
+        border-radius: 999px;
+    }
+
+    .react {
+        background-color: var(--gray-300);
+        padding-block: 8px;
+        padding-inline: 16px;
+        border-radius: 999px;
+    }
+}

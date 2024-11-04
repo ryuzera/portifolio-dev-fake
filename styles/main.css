@@ -1,0 +1,32 @@
+main {
+    padding-inline: 120px;
+    padding-block: 72px;
+}
+
+/* PROJECTS SECTION */
+.title {
+    text-align: center;
+}
+
+
+.projects-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* SERVICES SECTION */
+#services {
+    padding-inline: 120px;
+    padding-block: 88px;
+}
+
+.services-cards {
+    display: flex;
+    gap: 24px;
+}

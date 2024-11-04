@@ -1,0 +1,23 @@
+.text-lg-asap {
+    font: var(--title-lg-asap);
+}
+
+.text-md-asap {
+    font: var(--title-md-asap);
+}
+
+.text-sm-asap {
+    font: var(--title-sm-asap);
+}
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.text-md-maven {
+    font: var(--text-md-maven);
+}
+
+.text-sm-maven {
+    font: var(--text-sm-maven);
+}

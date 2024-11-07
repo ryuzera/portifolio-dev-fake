@@ -1,5 +1,6 @@
 .text-lg-asap {
     font: var(--title-lg-asap);
+    color: var(--gray-600);
 }
 
 .text-md-asap {
@@ -12,6 +13,7 @@
 
 .subtitle {
     font: var(--subtitle);
+    color: var(--gray-500);
 }
 
 .text-md-maven {
@@ -20,4 +22,6 @@
 
 .text-sm-maven {
     font: var(--text-sm-maven);
+    color: var(--gray-400);
 }
+

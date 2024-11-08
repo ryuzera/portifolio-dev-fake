@@ -1,12 +1,25 @@
-main {
-    padding-inline: 120px;
-    padding-block: 72px;
-}
 
 /* PROJECTS SECTION */
+
+#projects {
+    padding-inline: 120px;
+    padding-block: 72px 144px;
+    background-color: var(--gray-200);
+
+    h3 {
+        color: var(--red);
+    }
+
+    h2 {
+        padding-block: 8px 56px;
+        color: var(--gray-600);
+    }
+}
 .title {
     text-align: center;
 }
+
+
 
 
 .projects-cards {
@@ -17,7 +30,25 @@ main {
     img {
         width: 100%;
         object-fit: cover;
+        border-radius: 8px;
     }
+
+    h6 {
+        color: var(--gray-600);
+        padding: 4px 4px;
+        margin-top: 12px;
+    }
+
+    p {
+        color: var(--gray-500);
+        padding: 4px 4px;
+    }
+}
+
+.project {
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    padding: 12px 12px;
 }
 
 /* SERVICES SECTION */

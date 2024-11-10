@@ -47,6 +47,11 @@
     padding: 12px 12px;
 }
 
+.project:hover {
+    outline: 1px solid #8D8D99;
+    cursor: pointer;
+}
+
 /* SERVICES SECTION */
 #services {
     background-color: var(--gray-100);

@@ -67,4 +67,5 @@ footer {
 
 .contact:hover {
     outline: 1px solid var(--blue);
+    cursor: pointer;
 }
